@@ -1,0 +1,31 @@
+{
+  "name": "hxv/shell-cmd",
+  "description": "PHP class for escaping shell commands",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Michał Włodarczyk",
+      "email": "admin@hxv.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.2@dev",
+    "phpstan/phpstan": "0.10.x-dev",
+    "phpstan/phpstan-strict-rules": "0.10.x-dev",
+    "phpstan/phpstan-phpunit": "0.10.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "hxv\\ShellCmd\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "hxv\\ShellCmd\\Tests\\": "tests"
+    }
+  }
+}
